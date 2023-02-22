@@ -22,7 +22,7 @@ helm install traefik traefik/traefik
 helm install hello jiangtj/hello
 ```
 
-visit http://localhost/hello
+visit http://localhost
 
 ## nacos
 
