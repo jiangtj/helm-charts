@@ -34,3 +34,5 @@ cd operator
 helm install nacos-operator ./chart/nacos-operator 
 helm install nacos jiangtj/nacos-simple
 ```
+
+visit http://localhost/nacos
