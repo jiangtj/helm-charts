@@ -11,4 +11,15 @@ entries:
     urls:
     - https://github.com/jiangtj/helm-charts/releases/download/hello-0.1.0/hello-0.1.0.tgz
     version: 0.1.0
-generated: "2023-02-22T08:52:32.864704179Z"
+  nacos-simple:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-02-22T09:06:02.25415667Z"
+    description: A Helm chart for Kubernetes
+    digest: f809cdecd3b83f265daef2398a6eca7c7db3a0dccfd32f28a09b1ef3465274fa
+    name: nacos-simple
+    type: application
+    urls:
+    - https://github.com/jiangtj/helm-charts/releases/download/nacos-simple-0.1.0/nacos-simple-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-02-22T09:06:02.25416707Z"
