@@ -50,7 +50,7 @@ ingress:
     # - host: chart-example.local
     # - host: localhost
     - paths:
-        - path: /hello
+        - path: /hello/
           # pathType: ImplementationSpecific
           # pathType: Prefix
           pathType: Exact
