@@ -1,0 +1,24 @@
+# Default values for nacos.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+nacosVersion: latest
+
+ingress:
+  enabled: true
+  className: ""
+  annotations: {}
+    # kubernetes.io/ingress.class: nginx
+    # kubernetes.io/tls-acme: "true"
+  hosts:
+    - paths:
+        - path: /nacos
+          pathType: Prefix
+
+resources: 
+  requests:
+    cpu: 100m
+    memory: 512Mi
+  limits:
+    cpu: 2
+    memory: 2Gi
