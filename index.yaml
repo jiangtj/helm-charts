@@ -3,6 +3,16 @@ entries:
   hello:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2023-02-22T09:14:56.168066315Z"
+    description: A Helm chart for Kubernetes
+    digest: d2a3f0cc49df7ab93bb60e3e6d1f2b3128a9538abe988466288d03577af9861f
+    name: hello
+    type: application
+    urls:
+    - https://github.com/jiangtj/helm-charts/releases/download/hello-0.1.2/hello-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2023-02-22T09:10:16.628911006Z"
     description: A Helm chart for Kubernetes
     digest: bcad369751d35e459e7e8c3c90ccec7a085d8dc30e2f9d23791762201f108d79
@@ -32,4 +42,4 @@ entries:
     urls:
     - https://github.com/jiangtj/helm-charts/releases/download/nacos-simple-0.1.0/nacos-simple-0.1.0.tgz
     version: 0.1.0
-generated: "2023-02-22T09:10:16.628919906Z"
+generated: "2023-02-22T09:14:56.168076115Z"
